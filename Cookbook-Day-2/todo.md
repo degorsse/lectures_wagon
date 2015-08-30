@@ -31,16 +31,10 @@
 * Controller for it
 * Model for it
 
-## Useful pieces
+## Let's do it - The Newsfeed
 
-### Reading/Writing a CSV file
+A news: a title and an url.
 
-### Scrapping a page
+### List all news, from repository to view
 
-## Sample
-
-A newsfeed:
-
-* title
-* url
-
+### Reddit Scrapper
