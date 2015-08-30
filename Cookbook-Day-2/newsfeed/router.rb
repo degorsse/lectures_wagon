@@ -28,7 +28,8 @@ class Router
     when 1 then @controller.list
     when 2 then @controller.create
     when 3 then @controller.destroy
-    when 4 then stop
+    when 4 then @controller.scrap
+    when 5 then stop
     else puts "Please press 1, 2, 3 or 4"
     end
   end
@@ -39,6 +40,7 @@ class Router
     puts "1 - See all news"
     puts "2 - Send a news"
     puts "3 - Destroy a news"
-    puts "4 - Stop and exit the program"
+    puts "4 - Scrap news"
+    puts "5 - Stop and exit the program"
   end
 end

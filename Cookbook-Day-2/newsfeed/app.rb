@@ -3,6 +3,7 @@ require_relative 'view'
 require_relative 'newsfeed'    # You need to create this file!
 require_relative 'controller'  # You need to create this file!
 require_relative 'router'
+require_relative 'reddit_scrapper'
 
 require 'csv'
 
